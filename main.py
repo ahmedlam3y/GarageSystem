@@ -37,6 +37,7 @@ def foo(w1, w2):
     w1.move(300, 200)
     w2.hide()
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     wel = WelFrame()

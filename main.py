@@ -17,6 +17,7 @@ class WelFrame(QWidget, WelFrameForm):
     def __init__(self, parent=None):
         QWidget.__init__(self, parent)
         self.setupUi(self)
+        self.move(300, 200)
 
 
 class SignUp(QWidget, SignUpForm):
@@ -33,6 +34,7 @@ class Accout(QWidget, AccountForm):
 
 def foo(w1, w2):
     w1.show()
+    w1.move(300, 200)
     w2.hide()
 
 if __name__ == '__main__':
